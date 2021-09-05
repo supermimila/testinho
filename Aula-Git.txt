@@ -1,0 +1,52 @@
+verificando se o git está instalado
+git --version
+
+Identificando o user para cada versionamento
+git config --global user.name "Camila"
+git config --global user.email camilalm7@gmail.com
+
+Verificando configuração
+git config --list
+
+Iniciando repositório (Apontar uma pasta para que o git monitore)
+git init
+OBS: executar dentro da pasta que deseja
+
+Visualizar status do repositório
+git status
+
+Apagando um repositorio
+rm -rf .git (pasta oculta)
+
+Adicionar arquivo para ser rastreado
+git add <nome do arquivo>
+
+Adicionar msg na alteração
+git commit -m "Meu primeiro commit"
+
+Visualizar o histórico de Commit
+git log
+
+
+3 Estados do Git
+- Committed
+- Modified
+- Staged
+
+
+COMMITED
+"Gravado" - Dado está armazenado com segurança localmente
+
+MODIFIED
+"Modificado" - Alterou o arquivo, mas não efetuou o commit
+
+STAGED
+"Selecionado" - Marcou um arquivo modificado na versão corrente para fazer parte do seu próximo commit
+
+
+Verificar o commit específico e atualizar para essa versão
+git checkout <commit id>
+
+
+Verificar os commits separados e detalhadamente
+git checkout <commit id>
